@@ -1,0 +1,39 @@
+@media screen and (max-width: 992px) {
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+.listProduct .item img {
+    width: 90%;
+
+}
+
+.listProduct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.listProduct .item {
+    border: solid #55dbff;
+    padding: 20px;
+    border-radius: 2px;
+    color: #ff3fdf;
+}
+.listProduct .item:hover {
+    border: solid #15ff72;
+    padding: 20px;
+    border-radius: 2px;
+    transition: 0.2s;
+    color: #c73bff ;
+}
+
+.listProduct .item h2 {
+    font-size: large;
+    font-weight: 500;
+}
+
+.listProduct .item .price {
+
+    font-size: small;
+}
