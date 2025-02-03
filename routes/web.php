@@ -4,11 +4,11 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ZakekeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
-Route::get('/product', [ProductController::class, 'list'])->name('product.list');
+Route::get('/', [ProductController::class, 'list'])->name('product.list');
 Route::get('/product/{id}/detail', [ProductController::class, 'show'])->name('product.detail');
 
 //API Section

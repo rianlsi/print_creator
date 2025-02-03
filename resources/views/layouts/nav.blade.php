@@ -5,7 +5,7 @@
         </div>
         <ul class="nav-links">
 
-            <li><a href="/product">Products</a></li>
+            <li><a href="/">Products</a></li>
         </ul>
     </div>
 </nav>

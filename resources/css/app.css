@@ -30,7 +30,7 @@
     padding: 20px;
     border-radius: 2px;
     transition: 0.2s;
-    color: orange ;
+    color: #005d72;
 }
 
 .listProduct .item h2 {
@@ -138,12 +138,12 @@ nav .nav-content{
 }
 
 nav .logo img {
+
     max-width: 8%;
 }
 nav .logo a{
     font-weight: 500;
     font-size: 35px;
-    color: #4070f4;
 
 }
 nav.sticky .logo a{
@@ -165,14 +165,14 @@ nav.sticky .logo a{
     transition: all 0.3s ease;
 }
 .nav-links li a:hover{
-    color: #4070f4;
+    color: #005d72;
 }
 nav.sticky .nav-links li a{
     color: #fff;
     transition: all 0.4s ease;
 }
 nav.sticky .nav-links li a:hover{
-    color: #0E2431;
+    color: #005d72;
 }
 @media screen and (max-width: 992px) {
     .listProduct{
@@ -223,6 +223,10 @@ nav.sticky .nav-links li a:hover{
         width: 150px;
         height: 150px;
         left: calc(70% - 150px);
+    }
+    nav .logo img {
+        max-width: 15% !important;
+        min-width: 15%;
     }
 }
 @media screen and (max-width: 768px) {}
